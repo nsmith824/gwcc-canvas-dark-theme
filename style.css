@@ -10,10 +10,13 @@ div.large.ic-Dashboard-header__layout,
 .module-sequence-footer .module-sequence-footer-content,
 table.summary td,
 table.summary tbody th,
-.ui-tabs .ui-tabs-panel {
-    background-color: #16191c;
+.ui-tabs .ui-tabs-panel,
+.item-group-container,
+select.ic-Input, textarea.ic-Input, input[type="text"].ic-Input, input[type="password"].ic-Input, input[type="datetime"].ic-Input, input[type="datetime-local"].ic-Input, input[type="date"].ic-Input, input[type="month"].ic-Input, input[type="time"].ic-Input, input[type="week"].ic-Input, input[type="number"].ic-Input, input[type="email"].ic-Input, input[type="url"].ic-Input, input[type="search"].ic-Input, input[type="tel"].ic-Input, input[type="color"].ic-Input, .uneditable-input.ic-Input,
+.qBMHb_cSXm{
+    background-color: #0f1114;
     background: #0f1114;
-    color: #c8e0f5;
+    color: #405f79; /*#c8e0f5*/
 }
 
 .btn,
@@ -29,12 +32,21 @@ tbody,
 #calendar-app .fc-event,
 #calendar-drag-and-drop-container .fc-event,
 .item-group-condensed .ig-header,
-.item-group-condensed .ig-row {
+.item-group-condensed .ig-row,
+.closed-for-comments-discussions-v2__wrapper,
+.pinned-discussions-v2__wrapper, .unpinned-discussions-v2__wrapper,
+.ic-discussion-row,
+.discussions-v2__container-image{
     background: #171a20;
     color: #c8e0f5;
     border-color: black;
 }
-
+.accessible-toggler{
+    color: #c8e0f5;
+}
+.ig-list .ig-row:hover {
+  background-color: #212931;
+}
 :root {
     --ctrLD-color: #a3a9af;
     --ic-brand-global-nav-bgd: #101418;
@@ -44,4 +56,7 @@ tbody,
 #calendar-app .fc-month-view .fc-today,
 #calendar-drag-and-drop-container .fc-month-view .fc-today {
     background: #504f4f
+}
+.ic-discussion-row {
+  box-shadow: -1px -1px black,inset -1px -1px black;
 }
