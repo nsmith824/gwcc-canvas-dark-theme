@@ -1,0 +1,47 @@
+body,
+nav#breadcrumbs,
+div.page-toolbar,
+div.header-bar,
+div#context_modules_sortable_container.item-group-container,
+div.large.ic-Dashboard-header__layout,
+.quiz-submission,
+.question,
+#questions.assessment_results .question .header,
+.module-sequence-footer .module-sequence-footer-content,
+table.summary td,
+table.summary tbody th,
+.ui-tabs .ui-tabs-panel {
+    background-color: #16191c;
+    background: #0f1114;
+    color: #c8e0f5;
+}
+
+.btn,
+.Button,
+div.ic-DashboardCard,
+div.ic-DashboardCard__header_content,
+div.navigation-tray-container,
+div.enRcg_bGBk,
+.message-list .messages>li,
+.conversations .panel,
+table,
+tbody,
+#calendar-app .fc-event,
+#calendar-drag-and-drop-container .fc-event,
+.item-group-condensed .ig-header,
+.item-group-condensed .ig-row {
+    background: #171a20;
+    color: #c8e0f5;
+    border-color: black;
+}
+
+:root {
+    --ctrLD-color: #a3a9af;
+    --ic-brand-global-nav-bgd: #101418;
+    --ic-brand-global-nav-logo-bgd: #101418;
+}
+
+#calendar-app .fc-month-view .fc-today,
+#calendar-drag-and-drop-container .fc-month-view .fc-today {
+    background: #504f4f
+}
